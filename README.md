@@ -20,14 +20,14 @@ You may obtain a copy of the License at
 
 [![PerL](https://img.shields.io/badge/Per-L%20-yellow)](perl)
 
-The SBK (Storage Benchmark Kit) is an open source software framework for the performance benchmarking of any storage system. If you are curious to measure the maximum throughput performance of your storage device/system, then SBK is the right software for you. The SBK itself is a very high-performance benchmark tool/framework.
+The SBK (Storage Benchmark Kit) is an open-source software framework for the performance benchmarking of any storage system. If you are curious to measure the maximum throughput performance of your storage device/system, then SBK is the right software for you. The SBK itself is a very high-performance benchmark tool/framework.
 It massively writes the data to the storage system and reads the data from the storage system. The SBK supports multi writers and readers and also the End to End latency benchmarking.
 The latency quartiles and percentiles are calculated for complete data written/read without any sampling; hence the 
 percentiles are 100% accurate.
 
 The design principle of SBK is the **Performance Benchmarking of _'Any Storage System'_ with _'Any Type of data payload'_ and _'Any Time Stamp'_**,
-because, the SBK is not specific to particular type of storage system,
-it can be used for performance benchmarking of any storage system, let it be file system, databases , any distributed storage systems or message queues by adding SBK driver which specifies the IO operations of storage system.
+because, the SBK is not specific to a particular type of storage system,
+it can be used for performance benchmarking of any storage system, let it be file system, databases, any distributed storage systems or message queues by adding SBK driver which specifies the IO operations of the storage system.
 you can find the list of supported drivers below.
 The SBK supports a variety of payloads too, such as byte array, byte buffer, string, and you can add your own payload type.
 The Latency values can be measured either in milliseconds, microseconds or nanoseconds using SBK.
